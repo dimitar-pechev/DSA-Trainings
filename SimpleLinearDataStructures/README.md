@@ -1,0 +1,1 @@
+### Simple implementation of a linked list, a stack (with a resizable array behind) and a queue.
