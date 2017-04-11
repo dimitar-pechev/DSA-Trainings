@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColouredBalls", "ColouredBa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagLines", "ZigZagLines\ZigZagLines.csproj", "{00EA99D9-E236-4632-988A-A3FBFEF463EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubesequencesSum", "SubesequencesSum\SubesequencesSum.csproj", "{989CDBB5-5B3A-45C4-BCA0-8510D61427B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{00EA99D9-E236-4632-988A-A3FBFEF463EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00EA99D9-E236-4632-988A-A3FBFEF463EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00EA99D9-E236-4632-988A-A3FBFEF463EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989CDBB5-5B3A-45C4-BCA0-8510D61427B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989CDBB5-5B3A-45C4-BCA0-8510D61427B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989CDBB5-5B3A-45C4-BCA0-8510D61427B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989CDBB5-5B3A-45C4-BCA0-8510D61427B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
