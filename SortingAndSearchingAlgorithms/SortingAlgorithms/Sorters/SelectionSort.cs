@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SortingAlgorithms.Sorters
+namespace SortingAndSearchingAlgorithms.Sorters
 {
     public class SelectionSort
     {
-        public static void Sort<T>(IList<T> items) where T : IComparable<T>
+        public static void Sort<T>(List<T> items) where T : IComparable<T>
         {
             if (items.Count <= 1)
             {

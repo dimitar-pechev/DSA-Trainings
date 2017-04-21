@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SortingAlgorithms.Sorters
+namespace SortingAndSearchingAlgorithms.Sorters
 {
     public class CountingSort
     {

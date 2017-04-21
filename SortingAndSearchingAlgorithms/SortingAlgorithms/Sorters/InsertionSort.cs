@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SortingAlgorithms.Sorters
+namespace SortingAndSearchingAlgorithms.Sorters
 {
     public class InsertionSort
     {
-        public static void Sort<T>(IList<T> items) where T : IComparable<T>
+        public static void Sort<T>(List<T> items) where T : IComparable<T>
         {
             for (int i = 1; i < items.Count; i++)
             {

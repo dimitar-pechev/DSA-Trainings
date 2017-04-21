@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-using SortingAlgorithms.Sorters;
+using SortingAndSearchingAlgorithms.Sorters;
+using SortingAndSearchingAlgorithms.Searchers;
 
-namespace SortingAlgorithms
+namespace SortingAndSearchingAlgorithms
 {
     public class Startup
     {
@@ -13,8 +14,10 @@ namespace SortingAlgorithms
             Shuffle(numbers);
 
             Console.WriteLine(string.Join(" ", numbers));
-            var sortedList = CountingSort.Sort(numbers, x => x);
+            var sortedList = MergeSort.Sort(numbers);
             Console.WriteLine(string.Join(" ", sortedList));
+
+            Console.WriteLine(InterpolationSearch.GetIndex(sortedList, 25));
         }
 
         public static void Shuffle<T>(IList<T> items)

@@ -7,8 +7,8 @@
     <ProjectGuid>{1FAD9125-5A6D-4977-ABC5-20EF48C3D37C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SortingAlgorithms</RootNamespace>
-    <AssemblyName>SortingAlgorithms</AssemblyName>
+    <RootNamespace>SortingAndSearchingAlgorithms</RootNamespace>
+    <AssemblyName>SortingAndSearchingAlgorithms</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Searchers\BinarySearch.cs" />
+    <Compile Include="Searchers\InterpolationSearch.cs" />
     <Compile Include="Sorters\BubbleSort.cs" />
     <Compile Include="Sorters\CountingSort.cs" />
     <Compile Include="Sorters\InsertionSort.cs" />

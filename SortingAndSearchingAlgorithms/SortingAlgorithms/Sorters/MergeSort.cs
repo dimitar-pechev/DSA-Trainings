@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SortingAlgorithms.Sorters
+namespace SortingAndSearchingAlgorithms.Sorters
 {
     public class MergeSort
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SortingAlgorithms.Sorters
+namespace SortingAndSearchingAlgorithms.Sorters
 {
     public class QuickSort
     {
-        public static IList<T> Sort<T>(IList<T> items) where T : IComparable<T>
+        public static List<T> Sort<T>(List<T> items) where T : IComparable<T>
         {
             if (items.Count <= 1)
             {
